@@ -29,22 +29,23 @@ It leverages **Tkinter** for the interface and **concurrent threading** to maxim
 2. Install dependencies:
 Bash
 
-    pip install requests beautifulsoup4
+       pip install requests beautifulsoup4
 
     (Note: tkinter is usually included with Python installs on Linux).
 
-Usage
+## Usage
 
-Run the script directly:
-Bash
+  1. Run the script directly:
+  
+    Bash
 
-python northscrape.py
+    python northscrape.py
 
-    Generate Tab: Select categories (e.g., "Grocery Stores") and locations (e.g., "Sudbury, ON") and click START MASS GENERATION.
+  2. Generate Tab: Select categories (e.g., "Grocery Stores") and locations (e.g., "Sudbury, ON") and click START MASS GENERATION.
 
-    Enrich Tab: Transfer the results or load an existing CSV. Click Start Cleaning to fetch missing phone numbers and websites.
+  3. Enrich Tab: Transfer the results or load an existing CSV. Click Start Cleaning to fetch missing phone numbers and websites.
 
-    Export: Save your clean dataset to CSV.
+  4. Export: Save your clean dataset to CSV.
 
 Configuration
 
