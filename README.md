@@ -25,3 +25,6 @@ It leverages **Tkinter** for the interface and **concurrent threading** to maxim
    ```bash
    git clone [https://github.com/kathail/northscrape.git](https://github.com/kathail/northscrape.git)
    cd northscrape
+<img width="1099" height="813" alt="Screenshot_20251202_004458" src="https://github.com/user-attachments/assets/5a1b0732-5a5b-42f4-8efa-996ee6fa14bf" />
+<img width="1104" height="812" alt="Screenshot_20251202_004519" src="https://github.com/user-attachments/assets/b544e077-0ed5-4b9e-b1fd-e5f709dcef70" />
+
