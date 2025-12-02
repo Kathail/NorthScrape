@@ -26,14 +26,14 @@ It leverages **Tkinter** for the interface and **concurrent threading** to maxim
    git clone [https://github.com/kathail/northscrape.git](https://github.com/kathail/northscrape.git)
    cd northscrape
 
-   Install dependencies:
+2. Install dependencies:
 Bash
 
     pip install requests beautifulsoup4
 
     (Note: tkinter is usually included with Python installs on Linux).
 
-## Usage
+Usage
 
 Run the script directly:
 Bash
@@ -46,7 +46,7 @@ python northscrape.py
 
     Export: Save your clean dataset to CSV.
 
-## Configuration
+Configuration
 
     Thread Count: Defaults to 20 threads. Adjustable in the App class (self.MAX_WORKERS).
 
