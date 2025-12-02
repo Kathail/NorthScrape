@@ -47,7 +47,7 @@ Bash
 
   4. Export: Save your clean dataset to CSV.
 
-Configuration
+## Configuration
 
     Thread Count: Defaults to 20 threads. Adjustable in the App class (self.MAX_WORKERS).
 
