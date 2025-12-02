@@ -27,19 +27,20 @@ It leverages **Tkinter** for the interface and **concurrent threading** to maxim
    cd northscrape
 
 2. Install dependencies:
-Bash
-
+        
+   ```Bash
+   
        pip install requests beautifulsoup4
 
-    (Note: tkinter is usually included with Python installs on Linux).
+  (Note: tkinter is usually included with Python installs on Linux).
 
 ## Usage
 
   1. Run the script directly:
   
-    Bash
+     ```Bash
 
-    python northscrape.py
+      python northscrape.py
 
   2. Generate Tab: Select categories (e.g., "Grocery Stores") and locations (e.g., "Sudbury, ON") and click START MASS GENERATION.
 
