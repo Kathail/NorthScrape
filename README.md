@@ -49,9 +49,9 @@ Bash
 
 ## Configuration
 
-  -Thread Count: Defaults to 20 threads. Adjustable in the App class (self.MAX_WORKERS).
+  - Thread Count: Defaults to 20 threads. Adjustable in the App class (self.MAX_WORKERS).
 
-  -User Agents: Rotates through a list of modern browser headers to avoid detection.
+  - User Agents: Rotates through a list of modern browser headers to avoid detection.
 
 ## Disclaimer
 
