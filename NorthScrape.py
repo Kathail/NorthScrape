@@ -1,7 +1,3 @@
-# pyright: reportOptionalSubscript=false
-# pyright: reportAttributeAccessIssue=false
-# pyright: reportOptionalMemberAccess=false
-
 """
 NorthScrape - Northern Ontario Business Scraper
 ===============================================
@@ -51,6 +47,17 @@ CATEGORIES = [
     "General Stores",
     "Variety Stores",
     "Trading Posts",
+    "Tourist Attractions",
+    "Sports Complexes",
+    "Sports Venues",
+    "Museums",
+    "Art Galleries",
+    "Bookstores",
+    "Music Stores",
+    "Sports Stores",
+    "Electronics Stores",
+    "Fashion Stores",
+    "Pet Stores",
 ]
 
 # Maps Postal Code FSA (First 3 chars) to a generalized City/Region.
@@ -382,7 +389,7 @@ class App:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("NorthScrape v1.0 - By Kathail")
+        self.root.title("NorthScrape v1.1 - By Kathail")
         self.root.geometry("1100x750")
 
         self.csv_data = []
